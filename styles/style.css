@@ -1,0 +1,47 @@
+html {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #B9B5B5;
+  text-shadow: 3px 3px 1px black;
+}
+
+p,
+ol {
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #B9B5B5;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgb(35, 159, 171);
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%; 
+  height: auto;
+  height: 500px; 
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Добавлены свойства transition для плавных переходов */
+}
+
+img:hover {
+  transform: scale(1.05); /* Небольшое увеличение изображения при наведении */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Добавление тени для эффекта перелистывания страницы */
+}  
